@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "lib": ["ESNext"],
+    "jsx": "react-jsxdev",
+    "paths": {
+      "@src": ["./src"],
+      "@src/*": ["./src/*"],
+    },
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*", "**/.*"],
+  "exclude": ["lib", "coverage"]
+}

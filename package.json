@@ -1,0 +1,25 @@
+{
+  "name": "docs-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing docs site",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Lucian Cooper <cooperlucian@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciancooper/docs-site.git"
+  },
+  "devDependencies": {
+    "@lcooper/eslint-config-typescript": "^2.0.0",
+    "@lcooper/eslint-config-typescript-react": "^2.0.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.3"
+  }
+}
