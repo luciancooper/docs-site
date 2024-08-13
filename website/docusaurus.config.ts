@@ -8,10 +8,10 @@ const config: Config = {
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://luciancooper.github.io',
+    url: 'https://cli-screencast.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/docs-site/',
+    baseUrl: '/',
 
     // GitHub pages deployment config. If you aren't using GitHub pages, you don't need these.
     organizationName: 'luciancooper', // Usually your GitHub org/user name.
