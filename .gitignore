@@ -54,6 +54,7 @@ yarn-error.log*
 # Build files
 lib
 build
+docs/assets
 
 # Coverage files
 coverage
